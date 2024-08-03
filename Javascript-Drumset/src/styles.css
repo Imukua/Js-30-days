@@ -1,5 +1,10 @@
-@apply base;
-@apply components;
-@apply utilities;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;400;500;600&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+.key {
+    @apply col-span-1 w-full border-2 border-violet flex justify-center items-center shadow-md shadow-neutral-700 bg-t-green rounded-3xl font-bold text-xs sm:text-lg mb-3 transform hover:rotate-6 transition duration-500;
+
+}
